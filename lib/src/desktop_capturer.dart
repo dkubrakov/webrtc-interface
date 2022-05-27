@@ -33,5 +33,5 @@ abstract class DesktopCapturerSource {
 
 abstract class DesktopCapturer {
   Future<List<DesktopCapturerSource>> getSources(
-      {List<SourceType> types, ThumbnailSize thumbnailSize});
+    List<SourceType> types,ThumbnailSize thumbnailSize);
 }

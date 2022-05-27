@@ -1,6 +1,7 @@
 library webrtc_interface;
 
 export 'src/enums.dart';
+export 'src/desktop_capturer.dart';
 export 'src/factory.dart';
 export 'src/media_recorder.dart';
 export 'src/media_stream.dart';

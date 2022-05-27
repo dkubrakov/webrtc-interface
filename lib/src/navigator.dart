@@ -1,5 +1,6 @@
 import 'media_stream.dart';
 import 'mediadevices.dart';
+import 'desktop_capturer.dart';
 
 abstract class Navigator {
   @Deprecated('use mediadevice.getUserMedia() instead')
@@ -12,4 +13,6 @@ abstract class Navigator {
   Future<List<dynamic>> getSources();
 
   MediaDevices get mediaDevices;
+
+  DesktopCapturer get desktopCapturer;
 }
